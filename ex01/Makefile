@@ -1,7 +1,7 @@
-NAME = ex00
+NAME = ex01
 CC = c++
 FLAGS = -Wall -Wextra -Werror -g3
-SRCS = main.cpp
+SRCS = main.cpp Span.cpp
 # SRCS = $(addprefix $(DIR)/,$(SRCS_RAW))
 OBJS = $(SRCS:c=o)
 # DIR = srcs
